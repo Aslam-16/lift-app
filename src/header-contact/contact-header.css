@@ -1,0 +1,25 @@
+.header-contact-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 48px;
+}
+.email-section {
+    padding-right: 18px;
+}
+.email-section, .phone-number-section {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: orange;
+}
+.phone-icon, .email-icon {
+    height: 24px;
+    width: 28px;
+    padding-right: 4px;
+}
+@media screen and (max-width: 550px) {
+    .header-contact-grid {
+        display: none;
+    }
+}
